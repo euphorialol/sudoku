@@ -18,7 +18,7 @@ public class Space {
         return actual;
     }
 
-    public void setActual(Integer actual) {
+    public void setActual(final Integer actual) {
         if (fixed) return;
         this.actual = actual;
     }

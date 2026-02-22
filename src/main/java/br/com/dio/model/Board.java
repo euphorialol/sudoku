@@ -47,7 +47,7 @@ public class Board {
         return true;
     }
 
-    public boolean clarValue(final int col, final int row){
+    public boolean clearValue(final int col, final int row){
         var space = spaces.get(col).get(row);
 
         if (space.isFixed()){

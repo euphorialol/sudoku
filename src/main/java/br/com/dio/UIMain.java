@@ -1,13 +1,7 @@
 package br.com.dio;
-import br.com.dio.ui.custom.frame.MainFrame;
-import br.com.dio.ui.custom.panel.MainPanel;
+
 import br.com.dio.ui.custom.screen.MainScreen;
-
-import javax.swing.JPanel;
-import javax.swing.JFrame;
-import java.awt.Dimension;
 import java.util.stream.Stream;
-
 import static java.util.stream.Collectors.toMap;
 
 public class UIMain {

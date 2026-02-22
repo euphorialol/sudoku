@@ -10,12 +10,12 @@ import java.util.Map;
 
 public class BoardService {
 
-    private final int BOARD_LIMIT = 9;
+    private final static int BOARD_LIMIT = 9;
 
     private Board board;
 
     public BoardService(final Map<String, String> gameConfig) {
-        board = new Board(initBoard(gameConfig));
+        this.board = new Board(initBoard(gameConfig));
     }
 
     public  List<List<Space>> getSpace(){
